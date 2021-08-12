@@ -1,3 +1,13 @@
+'''
+The generale form of the file this program will read:
+
+<'type'> word1
+<'type'> word2
+<'type'> word3
+
+where 'type' can be only (K) or (N)
+'''
+
 def print_word_list(wl):
     for i, iteam in enumerate(wl):
         print(i+1,"- ",iteam,sep="",end="")
